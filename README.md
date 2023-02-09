@@ -3,39 +3,13 @@ Relates to: https://github.com/emmaolofs/StorageApplication
 
 # Development Plan
 
-## Initial research and requirement gathering: Understand the specific requirements for the storage app and gather information on the technologies and tools that will be used to build the backend.
-
-## Design: Create a detailed design for the backend, including the database schema, API structure, and overall architecture.
-
-### Task 1: Database design
-- [ ] Identify the data entities and relationships
-- [ ] Choose a database technology (e.g. MySQL, MongoDB)
-- [ ] Create the database schema
-
-### Task 2: API design
-- [ ] Identify the API endpoints and methods
-- [ ] Design the API structure and routes
-- [ ] Define the request and response formats
-
-### Task 3: Authentication and Authorization design
-- [ ] Identify the authentication and authorization requirements
-- [ ] Choose an authentication method (e.g. JWT, OAuth)
-- [ ] Design the authentication and authorization flow
-
-### Task 4: File handling design
-- [ ] Identify the file handling requirements
-- [ ] Design the file storage and retrieval flow
-
-### Task 5: Architecture design
-- [ ] Identify the architectural requirements
-- [ ] Choose an architectural pattern (e.g. MVC, Microservices)
-- [ ] Design the overall architecture of the backend
-
 ## Development: Write the code for the backend using C++. Implement the database, API, and other features according to the design.
 
 ### Task 1: Database implementation
-- [ ] Choose a database technology (e.g. MySQL, MongoDB)
-- [ ] Create the database schema based on the design
+- [x] Identify the data entities and relationships
+  - Relational database, that needs to be transactiona.
+- [x] Choose a database technology (e.g. MySQL, MongoDB)
+  - Postgres, using [libpq](https://www.postgresql.org/docs/9.2/libpq.html) `c++` API.
 - [ ] Implement functions for adding, updating, and retrieving data from the database
 
 ### Task 2: API implementation
