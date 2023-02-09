@@ -10,7 +10,10 @@ Relates to: https://github.com/emmaolofs/StorageApplication
   - Relational database, that needs to be transactiona.
 - [x] Choose a database technology (e.g. MySQL, MongoDB)
   - Postgres, using [libpq](https://www.postgresql.org/docs/9.2/libpq.html) `c++` API.
-- [ ] Implement functions for adding, updating, and retrieving data from the database
+- Implement functions for
+  - [ ] adding
+  - [ ] updating
+  - [x] retrieving
 
 ### Task 2: API implementation
 - [ ] Design the API structure and endpoints
